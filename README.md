@@ -1,10 +1,16 @@
 # Simple Rust Big Integer
 
-This big integer tend to be used on competitive programming and algorithm learning. If you want to use a more *ready for production* library, you can use [num-bigint](https://github.com/rust-num/num-bigint).
+I intent to made this **Simple Rust Big Integer** to be used on competitive programming (Especially for solving [Aizu Online Judge - Library of Number Theory](http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=NTL)) and algorithm learning, not for a real world application. If you want to use a more *ready for production* library, you can use [num-bigint](https://github.com/rust-num/num-bigint).
 
-# Example use
+## How to use
 
-```
+Copy [bigint.rs](bigint.rs) to your file and use it like the example below.
+
+## Example use
+
+```rust
+// paste simple rust big integer library here
+
 fn main() {
     let mut input: String = String::new();
     std::io::stdin().read_line(&mut input).ok();
@@ -28,22 +34,22 @@ fn main() {
 }
 ```
 
-# Method
+## Method
 
-## BigInteger
+### BigInteger
 
 * new(String) -> BigInteger
 
-## BigUInteger
+### BigUInteger
 
 * new(String) -> BigUInteger
 
-# TODO
+## TODO
 
-[x] Addition
-[x] Substraction
-[x] Multiplication
-[ ] Multiplication with karatsuba algorithm
-[ ] Division
-[ ] Power
-[ ] Modulo
+- [x] Addition
+- [x] Substraction
+- [x] Multiplication
+- [ ] Multiplication with karatsuba algorithm
+- [ ] Division
+- [ ] Power
+- [ ] Modulo
