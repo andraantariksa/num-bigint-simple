@@ -1,0 +1,8 @@
+[package]
+name = "num-bigint-simple"
+version = "0.0.1"
+authors = ["Andra Antariksa <andra.antariksa@gmail.com>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/andraantariksa/num-bigint-simple"
+readme = "README.md"
